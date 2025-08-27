@@ -1,5 +1,6 @@
 import PageTitle from '../PageTitle'
 import { Button } from '.././Button';
+import { Link } from 'react-router-dom';
 
 
 const SignupPage = () => {
@@ -46,8 +47,10 @@ const SignupPage = () => {
            <input type='radio' id='no' name ="agency" value="no"/>
            <label for="no"> No</label>
           </div>
-          <Button btn_class='right_btn' btn_text='Create Account'/> 
-       
+          <Link to="/profile_page">
+        <Button btn_class='right_btn' btn_text='Create Account' 
+        />
+        </Link>
           </form>
       </div>
     </div>
