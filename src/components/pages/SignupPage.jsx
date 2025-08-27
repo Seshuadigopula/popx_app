@@ -1,15 +1,8 @@
 import PageTitle from '../PageTitle'
 import { Button } from '.././Button';
-import { useNavigate } from 'react-router-dom';
 
 
 const SignupPage = () => {
-  const navigate = useNavigate();
-  // const handleSubmit = (event) =>
-  // {
-  //   event.preventDefault();
-  //   navigate('/profile_page');
-  // };
   return (
     <div className="signup_container">
       
