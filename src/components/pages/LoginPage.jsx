@@ -1,5 +1,7 @@
 import React from 'react'
 import PageTitle from '../PageTitle'
+import { Link } from 'react-router-dom'
+import { Button } from '../Button'
 
 const LoginPage = () => {
   return (
@@ -14,7 +16,7 @@ const LoginPage = () => {
       </div>
 
       <div className="login_right_part">
-        <form>
+        <form action="/profile_page">
           <div className='input_feild'>
           <label htmlFor="email">Email Address</label>
            <input id='email' type="email" placeholder="Enter Email address" />
@@ -24,8 +26,8 @@ const LoginPage = () => {
            <label htmlFor="password">Password</label>
            <input id='password' type="password" placeholder="Enter Password" />
           </div>
-          <Link to={"/profile_page"}>
-          <button type="submit">Login</button>
+            <Link to="/profile_page">
+          <Button type="submit" btn_text="Login" />
           </Link>
           </form>
       </div>
