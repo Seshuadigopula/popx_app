@@ -1,7 +1,7 @@
-# Account Settings Page (React)
+# POPX APP UI (React) 
 
 This project is a simple **React.js application** that displays a user account settings page with profile details, profile image, and a dotted circle camera icon overlay.  
-It is designed to demonstrate React component structure, styling with CSS, and static assets management.
+It is designed to demonstrate React component structure, styling with CSS, and static assets management.I have Developed this UI using the ReactJs as the part of my **Internship Assignment**.
 
 ---
 
@@ -18,6 +18,7 @@ It is designed to demonstrate React component structure, styling with CSS, and s
 
 ## 🚀 Live Demo
 Follow Link :- https://popxappin.netlify.app/
+
 
 
 
