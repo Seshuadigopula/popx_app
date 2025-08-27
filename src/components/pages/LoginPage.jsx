@@ -14,7 +14,7 @@ const LoginPage = () => {
       </div>
 
       <div className="login_right_part">
-        <form action="/profile_page">
+        <form>
           <div className='input_feild'>
           <label htmlFor="email">Email Address</label>
            <input id='email' type="email" placeholder="Enter Email address" />
@@ -24,8 +24,9 @@ const LoginPage = () => {
            <label htmlFor="password">Password</label>
            <input id='password' type="password" placeholder="Enter Password" />
           </div>
-
+          <Link to={"/profile_page"}>
           <button type="submit">Login</button>
+          </Link>
           </form>
       </div>
 
